@@ -1,21 +1,32 @@
 #netbeans specific
 core
 nbproject/*
-
 build/
 nbbuild/
 dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
- 
-#java specific
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+
+# java specific
 *.class
 
-#ant specific
+# ant specific
 dist/
 build/
 
+# maven
 target/
  
 #general swap/backup files
