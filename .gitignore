@@ -28,6 +28,9 @@ build/
 
 # maven
 target/
+
+#npm
+node_modules/
  
 #general swap/backup files
 *.so
