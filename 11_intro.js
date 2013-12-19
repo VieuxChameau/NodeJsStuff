@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 
-http.createServer(function (request, response) {
+http.createServer(function (request, response) { // the function is a requestListener listening for request event
     response.writeHead(200, {'Content-Type': 'text/html'});
 
     fs.readFile('11_intro.html', function (err, contents) {
