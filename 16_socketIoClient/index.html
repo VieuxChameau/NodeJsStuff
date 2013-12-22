@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Socket io client</title>
+    <script src="/socket.io/socket.io.js"/>
+    <script src="/insertQuestion.js"/>
+</head>
+<body>
+<script>
+    var server = io.connect('http://localhost:8080');
+    server.on('question', insertQuestion);
+
+    server.on('answer', answerQuestion)
+</script>
+    <ul>
+
+    </ul>
+</body>
+</html>
